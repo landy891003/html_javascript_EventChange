@@ -1,12 +1,20 @@
-<!DOCTYPE html>
 <html>
-<script type="text/javascript" src="quiz1.js"></script>
+<head>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $("button").click(function(){
+    $("p").html("怎麼那麼棒！！.");
+    $("h1").html("CSIE@CGU")
+  });
+});
+</script>
+</head>
 
 <body>
-<div id ="list">
-	<button id ="B" onclick="myFunction()">Try it</button>
-	<p id="L1">CGU</p>
-	<p id="P1">好棒棒</p>
-</div>
+<button>Change the documents</button>
+<h1>CGU</h1>
+<p>好棒棒</p>
 </body>
+
 </html>
